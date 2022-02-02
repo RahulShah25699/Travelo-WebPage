@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+:root{
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+body 
+{
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    top:0; left: 0; right:0;
+    background: #fff;
+    padding:1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+}
+
+header .logo{
+    color:var(--black);
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/*header .logo i{
+    color:var(--green);
+}*/
+
+header .navbar a{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    color:var(--light-color);
+}
+
+header .navbar a.active,
+header .navbar a:hover{
+    color:#fff;
+    color: var(--blue);
+    text-decoration: none !important;
+}
+
+.btn-secondary
+{
+    background-color: #007bff !important;
+    height: 30px !important;
+    width: 90px !important;
+    border-radius: 50px !important;
+    /*font-weight: bold;*/
+    font-size: 15px;
+}
+
+.i1
+{
+    height: 50px !important;
+}
+
+#home{
+    background:url(https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?cs=srgb&dl=scenic-view-of-beach-248797.jpg&fm=jpg) no-repeat center center fixed;
+    display: table;
+    height: 500px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.landing-text h1{
+    font-size: 500%;
+    font-weight:700;
+    color: #fff;
+}
+
+h3
+{
+    font-size: 200%;
+    font-weight: 200%;
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+/*.container-box
+{
+    background-color: #fff;
+    height: 60px;
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 30px !important;
+}
+*/
+
+.cc11
+{
+    height: 70px;
+    margin-top: 70px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px !important;
+}
+
+.s1
+{
+    color: #000000;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 5px;
+}
+
+i .iq1
+{
+    color: #696969;
+    padding: 7px;
+    font-family: serif;
+    margin-left: 9px;
+
+}
+
+
+.search
+{
+    margin-left: 5px;
+}
+
+.s2
+{
+    color: #000000;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 5px;
+}
+
+h4
+{
+    color: #696969;
+    padding-top: 7px;
+}
+
+.btn1
+{
+    margin : 10px;
+}
+
+.btn-primary
+{
+    height: 50px !important;
+    width: 120px !important;
+    border-radius: 10px !important;
+}
+
+.i1
+{
+    height: 60px;
+    width: 50px;
+}
+
+.box1
+{
+    padding: 30px;
+}
+
+.box1 h2
+{
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.box1 h4
+{
+    color: #000000 !important;
+}
+
+.rec1
+{
+    color: #000000;
+    font-weight: bolder;
+    font-size: 30px !important;
+    margin-top: 50px !important;
+    margin-left: 350px !important;
+    /*text-align: center !important;*/
+}
+
+.z1
+{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bolder; !important;
+    color: #000000 !important;
+    border-bottom: 2px solid #808080;
+}
+
+.act1 
+{
+    border-bottom: 4px solid #000000 !important;
+}
+
+.cc22
+{
+    text-decoration: none !important;
+    margin-top: 30px;
+}
+
+.im1
+{
+    height: 320px !important;
+    width: 320px !important;
+    border-radius: 10px !important;
+}
+
+.box2 h2
+{
+    margin-top: 15px;
+    font-weight: bolder !important;
+    font-size: 30px !important;
+    color: #000000;
+}
+
+.box2 h4
+{
+    color: #000000;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.fa-landmark
+{
+    font-size: 25px !important;
+    margin-top: 10px;
+}
+
+.fa-utensils
+{
+    font-size: 25px !important;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.fa-plane
+{
+    font-size: 25px !important;
+    margin-top: 10px;
+    margin-left: 10px;   
+}
+
+.fa-rupee 
+{
+    font-size: 25px !important;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.p1
+{
+    color: #000000 !important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    padding-left: 0px;
+    padding-top: 0px !important;
+}
+
+.box2 i
+{
+    color: #000000;
+}
+
+.box2 h3
+{
+    color: #000000 !important;
+    font-size: 15px;
+    /*font-weight: bolder;*/
+    margin-left: 10px;
+}
+
+.box2 h5
+{
+    color: #000000 !important;
+    font-size: 15px;
+    margin-left: 100px;
+    padding-top: 10px;
+    /*font-weight: bolder;*/
+}
+
+.contain1
+{
+    
+    padding-top: 120px;
+}
+
+.rec2
+{
+    color: #000000;
+    font-weight: bolder;
+    font-size: 30px !important;
+    margin-top: 100px !important;
+    margin-left: 500px !important;
+    /*text-align: center !important;*/
+}
+
+.sp1
+{
+    margin-top: 80px !important;
+}
+
+.ele1
+{
+    background: url(https://c4.wallpaperflare.com/wallpaper/535/803/769/5c1c9ccf04ecf-wallpaper-preview.jpg);
+    height: 350px;
+    width: 520px;
+    border-radius: 10px;
+}
+
+.box3 h2
+{
+    color: #ffffff !important;
+    /*padding: 70px;*/
+    padding-top: 90px;
+    padding-left: 130px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.part1
+{
+    background: url(https://c4.wallpaperflare.com/wallpaper/882/571/811/world-1920x1080-singapore-republic-of-singapore-wallpaper-preview.jpg);
+    height: 170px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+.part1 h3
+{
+    color: #ffffff !important;
+    padding-top: 20px;
+    padding-left: 170px;
+    font-weight: bolder !important;
+}
+
+.x1
+{
+    padding-top: 10px;
+}
+.part2
+{
+    background: url(https://image.shutterstock.com/image-photo/girl-backpack-walking-through-forest-260nw-1764790673.jpg);
+    height: 170px;
+    width: 550px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.part2 h3
+{
+    color: #ffffff !important;
+    padding-top: 15px;
+    padding-left: 170px;
+    font-weight: bolder !important;
+}
+
+.rec3
+{
+    color: #000000;
+    font-weight: bolder;
+    font-size: 30px !important;
+    margin-top: 100px !important;
+    margin-left: 440px !important;
+    /*text-align: center !important;*/
+}
+
+.fa-quote-left
+{
+    font-size: 50px;
+    color: #696969;
+}
+
+.text11
+{
+    font-size: 25px !important;
+    padding-top: 60px;
+
+}
+
+.sp100
+{
+    margin-top: 80px !important;
+    height: 320px;
+    width: 1300px;
+}
+
+.cust2
+{
+    margin-left: 120px;
+    
+}
+
+.rahu h5
+{
+    font-size: 20px;
+    color: #000000 !important;
+}
+
+
+.hc1
+{
+    margin-top: 40px;
+    background: url(https://www.pngfind.com/pngs/m/131-1314271_download-elon-musk-png-transparent-png.png);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.pic1 
+{
+    color: #000000;
+    font-size: 20px;
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+}
+
+footer .f1
+{
+    height: 80px;
+    width: 100%;
+    background-color: #A9A9A9;
+    margin-top: 50px;
+    /*margin-bottom: 20px;*/
+}
+
+.cr1 h4
+{
+    padding-top: 30px;
+    color: #000000;
+    font-size: 16px;
+    margin-left: 90px;
+    font-weight: bolder;
+}
+
+.cr2
+{
+    padding-top: 28px !important;
+}
+.cr2 a
+{
+    font-size: 2.0rem;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    color: #2F4F4F;
+}
+
+.cr2 a:hover
+{
+    text-decoration: none;
+}
+
+.cr2 a.active
+{
+    color: #000000 !important;
+}
+
+/*.foot1
+{
+    font-size: 50px;
+    color: #000000 !important;
+}
+*/
+
+.fa-facebook-square
+{
+    padding-top: 30px;
+    font-size: 30px;
+    padding-left: 100px;
+    margin-left: 10px;
+}
+
+.fa-linkedin
+{
+    padding-top: 30px;
+    font-size: 30px;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+.fa-instagram
+{
+    padding-top: 30px;
+    font-size: 30px;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+.fa-whatsapp
+{
+    padding-top: 30px;
+    font-size: 30px;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+
+
